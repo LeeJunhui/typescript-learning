@@ -1,0 +1,26 @@
+{
+  "name": "com.leejunhui.typescript-basic-types",
+  "version": "1.0.0",
+  "description": "TypeScript's Basic Types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeJunhui/typescript-learning.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "leejunhui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeeJunhui/typescript-learning/issues"
+  },
+  "homepage": "https://github.com/LeeJunhui/typescript-learning#readme",
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "lite-server": "^2.3.0"
+  }
+}

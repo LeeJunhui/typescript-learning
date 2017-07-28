@@ -1,0 +1,30 @@
+{
+  "name": "com.leejunhui.typescript-first-demo",
+  "version": "1.0.0",
+  "description": "A simple Demo of TypeScript",
+  "main": "greeter.js",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeJunhui/typescript-learning.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "leejunhui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeeJunhui/typescript-learning/issues"
+  },
+  "homepage": "https://github.com/LeeJunhui/typescript-learning#readme",
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {}
+}
